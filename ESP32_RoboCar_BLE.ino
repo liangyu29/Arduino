@@ -99,7 +99,7 @@ void setup() {
   motor.motorStop(motorL);
     
   // Create the BLE Device
-  BLEDevice::init("ESP32-LIGHTFISH");
+  BLEDevice::init("ESP32-LIGHTFISH12332112321123");
 
   // Create the BLE Server
   pServer = BLEDevice::createServer();
