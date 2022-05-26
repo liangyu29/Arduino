@@ -4,9 +4,9 @@
 #include "x_test.h"
 
 #define N_INPUTS  90
-#define N_OUTPUTS 10
+#define N_OUTPUTS 3
 // preallocate a certain amount of memory for input, output, and intermediate arrays.
-#define TENSOR_ARENA_SIZE 16*1024 
+#define TENSOR_ARENA_SIZE 32*1024 
 
   
 Eloquent::TinyML::TensorFlow::TensorFlow<N_INPUTS, N_OUTPUTS, TENSOR_ARENA_SIZE> tf;
